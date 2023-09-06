@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Silahkan                                 _bd3349</name>
+   <name>Link_ke halaman login</name>
    <tag></tag>
    <elementGuidId>e50183d5-66f1-4261-9869-df7fbcba7795</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#buttonGoInTrack</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='buttonGoInTrack']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#buttonGoInTrack</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

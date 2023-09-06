@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
 
-WebUI.click(findTestObject('Object Repository/Page_Buat akun dan dapatkan akses di Coding.ID/a_Silahkan                                 _bd3349'))
+WebUI.click(findTestObject('Page_Coding.ID - Register/Link_ke halaman login'))
 
-WebUI.verifyElementText(findTestObject('Page_Masuk untuk dapatkan akses di Coding.ID/span_Masuk'), 'Masuk')
+WebUI.verifyElementText(findTestObject('Page_Coding.id - Login/Word_Masuk'), 'Masuk')
 
 WebUI.closeBrowser()
 
