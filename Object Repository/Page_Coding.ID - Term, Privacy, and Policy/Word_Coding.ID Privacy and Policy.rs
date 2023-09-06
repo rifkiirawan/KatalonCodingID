@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>b_Coding.ID Privacy and Policy</name>
+   <name>Word_Coding.ID Privacy and Policy</name>
    <tag></tag>
    <elementGuidId>af869f9f-9ae2-4dd2-a42e-1bc905271cd7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>b</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Coding.ID Service'])[1]/preceding::b[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
