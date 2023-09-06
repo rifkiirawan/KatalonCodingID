@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h4_Profile</name>
+   <name>Word_Profile</name>
    <tag></tag>
    <elementGuidId>82091910-393d-4459-9191-d18732c1bd49</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h4.text-white</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.text-white</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

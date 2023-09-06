@@ -21,27 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
 
-WebUI.setText(findTestObject('null'), 'John Doe')
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Nama'), 'John Doe')
 
-WebUI.setText(findTestObject('null'), 
-    '02-sep-2010')
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Tanggal lahir'), '02-sep-2000')
 
-WebUI.setText(findTestObject('null'), 'abc')
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_E-Mail'), 'abc@gm.com')
 
-WebUI.setText(findTestObject('null'), 
-    '088811112222')
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Whatsapp'), '088811112222')
 
-WebUI.setEncryptedText(findTestObject('null'), 
-    'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setEncryptedText(findTestObject('Page_Coding.ID - Register/input_Kata Sandi'), 'HeCM15nHKBI=')
 
-WebUI.setEncryptedText(findTestObject('null'), 
-    'iFGeFYmXIrUhQZHvW7P22w==')
+WebUI.setEncryptedText(findTestObject('Page_Coding.ID - Register/input_Konfirmasi kata sandi'), 'HeCM15nHKBI=')
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_Coding.ID - Register/input_Checkbox Setuju Syarat dan Ketentuan'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Page_Coding.ID - Register/button_Daftar'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Coding.ID - Register/Alert_The password must be at least 8 characters'), 
+    'The password must be at least 8 characters.')
 
 WebUI.closeBrowser()
 

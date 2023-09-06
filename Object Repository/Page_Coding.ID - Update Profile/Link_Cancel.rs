@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Cancel</name>
+   <name>Link_Cancel</name>
    <tag></tag>
    <elementGuidId>75761136-cbd9-447c-adbc-42405be120a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-secondary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]/div[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

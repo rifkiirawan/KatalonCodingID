@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_The whatsapp field is required</name>
+   <name>Word_The whatsapp field is required</name>
    <tag></tag>
    <elementGuidId>fa8113d9-b415-4587-be71-2d3ef8404279</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>strong</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]/div[3]/div/strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

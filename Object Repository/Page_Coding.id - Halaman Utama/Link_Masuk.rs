@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Masuk</name>
+   <name>Link_Masuk</name>
    <tag></tag>
    <elementGuidId>8edfed51-4b9a-427d-9db4-f6ed6dfdc7d9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li:nth-of-type(7) > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbar-collapse-1']/ul/li[7]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(7) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

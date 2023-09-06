@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Konfirmasi kata sandi_inlineCheckbox1</name>
+   <name>input_Checkbox Setuju Syarat dan Ketentuan</name>
    <tag></tag>
    <elementGuidId>9b1217ea-ddc3-4031-988e-352aaf0f35a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#inlineCheckbox1</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='inlineCheckbox1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#inlineCheckbox1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

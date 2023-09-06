@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Tanggal lahir_birth_date</name>
+   <name>input_Tanggal lahir</name>
    <tag></tag>
    <elementGuidId>d679aca1-b95b-456f-905a-d9000a0554c7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;birth_date&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='birth_date']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;birth_date&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

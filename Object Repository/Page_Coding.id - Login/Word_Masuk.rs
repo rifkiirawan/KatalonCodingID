@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Masuk</name>
+   <name>Word_Masuk</name>
    <tag></tag>
    <elementGuidId>b06284bd-62c8-4094-94ce-3b284df2074c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>h1 > span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1 > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

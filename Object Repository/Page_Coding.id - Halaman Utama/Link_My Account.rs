@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_My Account</name>
+   <name>Link_My Account</name>
    <tag></tag>
    <elementGuidId>f8fcd0cb-ed00-4091-a3b2-efaf0a6498af</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>ul.wm-dropdown-menu > li:nth-of-type(3) > a</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbar-collapse-1']/ul/li[7]/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.wm-dropdown-menu > li:nth-of-type(3) > a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Konfirmasi kata sandi_password_confirmation</name>
+   <name>input_Kata Sandi</name>
    <tag></tag>
-   <elementGuidId>740445a5-675e-4242-a75f-5488dc5bdfee</elementGuidId>
+   <elementGuidId>13cab0bc-2fa3-44a3-b03b-7e6e00b4601f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#password-confirm</value>
+         <key>XPATH</key>
+         <value>//input[@id='password']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='password-confirm']</value>
+         <key>CSS</key>
+         <value>#password</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>96a11f9f-1e1b-4dd9-ad73-31d5bf24c2d7</webElementGuid>
+      <webElementGuid>e9a75d1a-8217-418e-b5a4-69a80cda653c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password-confirm</value>
-      <webElementGuid>441996f2-e680-4348-bec4-42980a10ca1c</webElementGuid>
+      <value>password</value>
+      <webElementGuid>01d5172b-8b28-457a-9d79-7e9bcca9736a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,31 +38,31 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>974ee48d-c0fd-4a14-85e7-033fd7e40e3b</webElementGuid>
+      <webElementGuid>8137887c-0e70-4430-9d85-0097a2edd02f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Ulangi kata sandi anda</value>
-      <webElementGuid>06196781-3a3a-40a8-bab1-889c46bcf8ae</webElementGuid>
+      <value>Masukan kata sandi anda</value>
+      <webElementGuid>cf58ff7c-41e7-4d6b-a444-7b81a99c55aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>4155b1b6-0188-4b5a-8ac0-46b729a1c3e5</webElementGuid>
+      <value>form-control error-input </value>
+      <webElementGuid>bd12bd69-3804-43a9-883a-bc97f8561be8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password_confirmation</value>
-      <webElementGuid>5476b77b-2bb5-4675-b1f4-45f58a5343bf</webElementGuid>
+      <value>password</value>
+      <webElementGuid>f356997d-ab33-4eff-93de-9a026348757d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,38 +70,38 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>a459acd0-eeed-4e72-87c4-737b1afea3a5</webElementGuid>
+      <webElementGuid>2d868f8a-55aa-4e03-81eb-6306c9536cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password-confirm&quot;)</value>
-      <webElementGuid>fa74a0b9-9555-4404-a72f-a70f963da382</webElementGuid>
+      <value>id(&quot;password&quot;)</value>
+      <webElementGuid>3c145639-846b-45bd-b4e2-7edbb3d963d2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password-confirm']</value>
-      <webElementGuid>738af5b2-178f-49bb-89e8-9334a9c14c05</webElementGuid>
+      <value>//input[@id='password']</value>
+      <webElementGuid>e9a3dc9e-a34c-4afa-af48-3214562928b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[6]/div/input</value>
-      <webElementGuid>012f36cb-aeef-41a6-83d8-f47738486971</webElementGuid>
+      <value>//div[5]/div/input</value>
+      <webElementGuid>2ccb3552-d807-4b57-916f-f11f55e6af28</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password-confirm' and @type = 'password' and @placeholder = 'Ulangi kata sandi anda' and @name = 'password_confirmation']</value>
-      <webElementGuid>23e4fe47-ebe3-48ac-8e2d-9702cc4635f6</webElementGuid>
+      <value>//input[@id = 'password' and @type = 'password' and @placeholder = 'Masukan kata sandi anda' and @name = 'password']</value>
+      <webElementGuid>35d55369-dbe6-4701-bf6e-37aeb6ac4da2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

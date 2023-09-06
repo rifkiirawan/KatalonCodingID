@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Fullname</name>
+   <name>Word_Fullname</name>
    <tag></tag>
    <elementGuidId>50a66587-39f9-4c29-b739-7dd37df344dd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.form-group > label</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[3]/section/div/div/div/div/div/div/div/form/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.form-group > label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

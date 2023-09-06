@@ -21,28 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.id - Halaman Utama/a_Masuk'))
+WebUI.click(findTestObject('Object Repository/Page_Coding.id - Halaman Utama/Link_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.id - Login/input_Email_email'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.id - Login/input_Kata                                 _98da12'), 
-    'JCmwKw2VXH/Exv650Bd5PA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Coding.id - Login/button_Login'))
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Fullname_name'), 'New John')
+WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Fullname'), 'New John')
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Phone_whatsapp'), '')
+WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Phone'), '')
 
-WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_BirthDay_birth_date'), '18-Apr-1925')
-
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Update Profile/div_Fullname                               _a7cccf'))
+WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Birthday'), '18-Apr-1925')
 
 WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Update Profile/button_Save Changes'))
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Update Profile/strong_The whatsapp field is required'), 'The whatsapp field is required.')
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Update Profile/Word_The whatsapp field is required'), 'The whatsapp field is required.')
 
 WebUI.closeBrowser()
 

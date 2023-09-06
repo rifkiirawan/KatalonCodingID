@@ -23,18 +23,17 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Object Repository/Page_Be a Profressional Talent with Coding.ID/a_Masuk'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/input_Email_email'), 'rifkiauliairawan@gmail.com')
+WebUI.setText(findTestObject('Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/input_Kata                                 _98da12'), 
-    'JCmwKw2VXH/Exv650Bd5PA==')
+WebUI.setEncryptedText(findTestObject('Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
 
 WebUI.click(findTestObject('Object Repository/Page_Masuk untuk dapatkan akses di Coding.ID/button_Login'))
 
 WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
 
-WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Dashboard/a_Cancel'))
+WebUI.click(findTestObject('Page_Coding.ID - Update Profile/Link_Cancel'))
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Dashboard/h4_Profile'), 'Profile')
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Update Profile/Word_Profile'), 'Profile')
 
 WebUI.closeBrowser()
 

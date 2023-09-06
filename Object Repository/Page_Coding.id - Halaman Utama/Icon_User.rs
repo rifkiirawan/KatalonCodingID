@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Kontak_fas fa-user-alt</name>
+   <name>Icon_User</name>
    <tag></tag>
    <elementGuidId>a4e9410a-b852-4a71-8ee3-fb65fc22ce72</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>i.fas.fa-user-alt</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='navbar-collapse-1']/ul/li[7]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-user-alt</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
