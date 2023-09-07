@@ -23,11 +23,21 @@ WebUI.navigateToUrl('https://demo-app.online/')
 
 WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
 
-WebUI.click(findTestObject('Page_Coding.ID - Register/link_syarat dan ketentuan'))
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Nama'), 'John Doe')
 
-WebUI.switchToWindowTitle('Coding.ID - Term, Privacy, and Policy')
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_E-Mail'), 'abc@gm.com')
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Term, Privacy, and Policy/Word_Coding.ID Privacy and Policy'), 'Coding.ID Privacy and Policy')
+WebUI.setText(findTestObject('Page_Coding.ID - Register/input_Whatsapp'), '088811112222')
+
+WebUI.setEncryptedText(findTestObject('Page_Coding.ID - Register/input_Kata Sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+
+WebUI.setEncryptedText(findTestObject('Page_Coding.ID - Register/input_Konfirmasi kata sandi'), 'iFGeFYmXIrUhQZHvW7P22w==')
+
+WebUI.click(findTestObject('Page_Coding.ID - Register/input_Checkbox Setuju Syarat dan Ketentuan'))
+
+WebUI.click(findTestObject('Page_Coding.ID - Register/button_Daftar'))
+
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Register/Word_Wajib di isi'), 'Wajib di isi.')
 
 WebUI.closeBrowser()
 

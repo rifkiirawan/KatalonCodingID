@@ -21,13 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Page_Coding.id - Halaman Utama/button_Buat                                _86b528'))
+WebUI.click(findTestObject('Object Repository/Page_Coding.id - Halaman Utama/Link_Masuk'))
 
-WebUI.click(findTestObject('Page_Coding.ID - Register/link_syarat dan ketentuan'))
+WebUI.setText(findTestObject('Object Repository/Page_Coding.id - Login/input_Email'), 'rifkiauliairawan@gmail.com')
 
-WebUI.switchToWindowTitle('Coding.ID - Term, Privacy, and Policy')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Coding.id - Login/input_Password'), 'JCmwKw2VXH/Exv650Bd5PA==')
 
-WebUI.verifyElementText(findTestObject('Page_Coding.ID - Term, Privacy, and Policy/Word_Coding.ID Privacy and Policy'), 'Coding.ID Privacy and Policy')
+WebUI.click(findTestObject('Object Repository/Page_Coding.id - Login/button_Login'))
+
+WebUI.navigateToUrl('https://demo-app.online/dashboard/profile/edit')
+
+WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Fullname'), 'Newer John')
+
+WebUI.setText(findTestObject('Object Repository/Page_Coding.ID - Update Profile/input_Phone'), '===')
+
+WebUI.click(findTestObject('Object Repository/Page_Coding.ID - Update Profile/button_Save Changes'))
+
+WebUI.verifyElementText(findTestObject('Page_Coding.ID - Update Profile/Word_The whatsapp must be a number'), 'The whatsapp must be a number.')
 
 WebUI.closeBrowser()
 
